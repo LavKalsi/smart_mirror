@@ -1,0 +1,50 @@
+/* Full-screen black background with white text */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Container splits into three columns: weather | clock | news */
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Left column: weather info */
+#weather {
+  width: 25%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Center column: clock */
+#center {
+  width: 50%;
+  text-align: center;
+}
+#clock {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+/* Right column: news headlines */
+#news {
+  width: 25%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Slightly larger headings for weather/news */
+#weather h2,
+#news h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
