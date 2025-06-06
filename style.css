@@ -17,6 +17,48 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
+#chatbot {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.6);
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#chat-messages {
+  max-height: 100px;
+  overflow-y: auto;
+  margin-bottom: 5px;
+}
+
+#chat-input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+#chat-messages pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+
+pre {
+  font-family: 'Segoe UI', sans-serif; /* or any font you prefer */
+  font-size: 16px;
+  color: #ffffff; /* white text, optional */
+  white-space: pre-wrap; /* wrap long lines */
+  word-wrap: break-word;
+  overflow-x: hidden; /* avoid horizontal scroll */
+}
+
+
 
 /* Left column: weather info */
 #weather {
