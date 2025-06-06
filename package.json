@@ -13,5 +13,13 @@
   "dependencies": {
     "axios": "^1.9.0",
     "electron": "^36.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LavKalsi/smart_mirror.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LavKalsi/smart_mirror/issues"
+  },
+  "homepage": "https://github.com/LavKalsi/smart_mirror#readme"
 }

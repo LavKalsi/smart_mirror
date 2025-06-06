@@ -30,6 +30,3 @@ yarn-error.log*
 # Backup files
 *.bak
 *.tmp
-
-# Optional: exclude API key hardcodes for safety
-renderer.js
