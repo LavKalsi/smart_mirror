@@ -12,7 +12,8 @@
   "description": "Smart Mirror with Node.js and Electron",
   "dependencies": {
     "axios": "^1.9.0",
-    "electron": "^36.4.0"
+    "electron": "^36.4.0",
+    "say": "^0.16.0"
   },
   "repository": {
     "type": "git",

@@ -58,6 +58,10 @@ pre {
   overflow-x: hidden; /* avoid horizontal scroll */
 }
 
+#weather, #news, #chatbot {
+  transition: opacity 1s ease;
+  opacity: 1;
+}
 
 
 /* Left column: weather info */
