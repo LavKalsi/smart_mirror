@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Base Reset */
 * {
   margin: 0;
@@ -82,10 +83,33 @@ body {
 
 /* Chatbot Bottom Center Container */
 #chatbot-container {
+=======
+/* Full-screen black background with white text */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Container splits into three columns: weather | clock | news */
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#chatbot {
+>>>>>>> 30b3aad2f0e47965cb81d34cb76011c74ddba7a3
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+<<<<<<< HEAD
   max-width: 600px;
   width: 100%;
   padding: 0 20px;
@@ -163,10 +187,25 @@ body {
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.1);
   padding: 8px 12px;
+=======
+  background: rgba(0,0,0,0.6);
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#chat-messages {
+  max-height: 100px;
+  overflow-y: auto;
+  margin-bottom: 5px;
+>>>>>>> 30b3aad2f0e47965cb81d34cb76011c74ddba7a3
 }
 
 #chat-input {
   width: 100%;
+<<<<<<< HEAD
   background: transparent;
   border: none;
   outline: none;
@@ -245,3 +284,61 @@ body {
 #company-logo:hover {
   opacity: 1;
 }
+=======
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+#chat-messages pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+
+pre {
+  font-family: 'Segoe UI', sans-serif; /* or any font you prefer */
+  font-size: 16px;
+  color: #ffffff; /* white text, optional */
+  white-space: pre-wrap; /* wrap long lines */
+  word-wrap: break-word;
+  overflow-x: hidden; /* avoid horizontal scroll */
+}
+
+#weather, #news, #chatbot {
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+
+
+/* Left column: weather info */
+#weather {
+  width: 25%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Center column: clock */
+#center {
+  width: 50%;
+  text-align: center;
+}
+#clock {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+/* Right column: news headlines */
+#news {
+  width: 25%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Slightly larger headings for weather/news */
+#weather h2,
+#news h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+>>>>>>> 30b3aad2f0e47965cb81d34cb76011c74ddba7a3

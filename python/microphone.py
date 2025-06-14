@@ -36,7 +36,11 @@ def listen(duration=5):
 
 while True:
     print("Say the wake word...")
+<<<<<<< HEAD
     text = listen(duration=2)  # listen for 2 seconds to detect wake word
+=======
+    text = listen(duration=3)  # listen for 5 seconds to detect wake word
+>>>>>>> 30b3aad2f0e47965cb81d34cb76011c74ddba7a3
     print("Heard:", text)
 
     if wake_word in text:
