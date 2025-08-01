@@ -6,9 +6,9 @@ A custom-built Smart Mirror powered by **Electron**, displaying real-time **weat
 
 ## 📸 Project Snapshot
 
-> *(Insert real-life image of your smart mirror below)*
-
-![Smart Mirror Photo](./image/SmartMirror.jpg) <!-- Replace with your actual image path -->
+<p align="center">
+  <img src="image/SmartMirror.jpg" alt="Sample Image 1" width="400"/>
+</p>
 
 ---
 
