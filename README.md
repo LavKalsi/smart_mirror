@@ -8,7 +8,7 @@ A custom-built Smart Mirror powered by **Electron**, displaying real-time **weat
 
 > *(Insert real-life image of your smart mirror below)*
 
-![Smart Mirror Photo](./images/mirror-photo.jpg) <!-- Replace with your actual image path -->
+![Smart Mirror Photo](./image/SmartMirror.jpg) <!-- Replace with your actual image path -->
 
 ---
 
